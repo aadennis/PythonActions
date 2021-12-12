@@ -18,4 +18,4 @@ jobs:
       - name: set pythonpath
         run: echo "PYTHONPATH=pytestexample" >> $GITHUB_ENV
       - name: pytest run
-        run: pytest 
+        run: pytest -v
