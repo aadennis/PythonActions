@@ -16,6 +16,6 @@ jobs:
           pip install -r requirements.txt
           echo "AAAAAAAAA $GITHUB_REF"
       - name: set pythonpath
-        run: echo "PYTHONPATH=mlprepare" >> $GITHUB_ENV
+        run: echo "PYTHONPATH=pytestexample" >> $GITHUB_ENV
       - name: pytest run
         run: pytest 
